@@ -1,0 +1,30 @@
+body {
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-content: space-between;
+}
+
+nav > div {
+    flex: 1;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+}
+
+.links > a {
+    flex: 1;
+}
+
+.search {
+    text-align: right;
+}
+
