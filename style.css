@@ -15,16 +15,19 @@ nav > div {
     flex: 1;
 }
 
-.links {
-    text-align: center;
-    display: flex;
+.logo {
+    text-align: left;
+
 }
+
 
 .links > a {
     flex: 1;
+    
 }
 
-.search {
+.links {
     text-align: right;
+    
 }
 
