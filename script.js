@@ -1,7 +1,9 @@
-const myHeading = document.getElementById("headingH1");
-myHeading.textContent = "Welcome to My World!";
-
-function searchFunction() {
-    const searchTerm = document.getElementById("searchInput");
-    console.log("We are searching for: " + searchTerm.value);
-}
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
