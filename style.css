@@ -1,13 +1,15 @@
-.navbar {
-    background-color: transparent;
-}
+/* image: width, height, padding */
 
 div.column {
     max-width: 800px;
 }
-  
-  figure.fixedratio {
-    padding-top: 56.25%;  /* 450px/800px = 0.5625 */
-    padding-bottom: 25%;
+
+figure.fixedratio {
+    padding-top: 56.25%;
+    /* 450px/800px = 0.5625 */
+    /* padding-bottom: 25%; */
 }
 
+.navbar {
+    background-color: transparent;
+}
