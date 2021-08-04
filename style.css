@@ -7,7 +7,11 @@ div.column {
 figure.fixedratio {
   padding-top: 56.25%;
   /* 450px/800px = 0.5625 */
-  /* padding-bottom: 25%; */
+  padding-bottom: 25%;
+}
+
+figure.fixedratio {
+  padding-bottom: 0%;
 }
 
 .navbar {
@@ -21,4 +25,9 @@ figure.fixedratio {
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+body {
+  background-image: url("LouisArmstrongCollage.jpg.png");
+  background-color: rgb(36, 35, 35);
 }
