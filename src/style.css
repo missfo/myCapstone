@@ -20,7 +20,7 @@ figure.fixedratio {
 
 .navbar-brand {
   font-family: "Tangerine", serif;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .nav-link:hover {
@@ -29,7 +29,8 @@ figure.fixedratio {
 /* Tagline code starts here */
 .navbar-brand small {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
+  margin-top: -10px;
 }
 
 .navbar-toggle {
