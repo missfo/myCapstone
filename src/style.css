@@ -20,12 +20,32 @@ figure.fixedratio {
 
 .navbar-brand {
   font-family: "Tangerine", serif;
-  font-size: 38px;
+  font-size: 40px;
 }
 
 .nav-link:hover {
   text-decoration: underline;
 }
+/* Tagline code starts here */
+.navbar-brand small {
+  display: block;
+  font-size: 12px;
+}
+
+.navbar-toggle {
+  top: 10px;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-top: 16px;
+  }
+
+  .navbar.navbar-nav a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+/* Tagline code ends here */
 
 body {
   background-image: url("LouisArmstrongCollage.jpg.png");
@@ -42,12 +62,12 @@ body {
   color: white;
 }
 
-body {
+/* body {
   background: url(./images/NYC_2013.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 form {
   background: rgba(27, 31, 34, 0.8);
