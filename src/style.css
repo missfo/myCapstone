@@ -1,4 +1,4 @@
-/* image: width, height, padding */
+/* Landing/Home page image: width, height, padding */
 
 div.column {
   max-width: 800px;
@@ -13,11 +13,14 @@ figure.fixedratio {
 figure.fixedratio {
   padding-bottom: 0%;
 }
+/* Start Grid here */
+.container {
+  display: grid;
+}
 
 .navbar {
   background-color: transparent;
 }
-
 .navbar-brand {
   font-family: "Tangerine", serif;
   font-size: 50px;
@@ -30,7 +33,7 @@ figure.fixedratio {
 .navbar-brand small {
   display: block;
   font-size: 14px;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 
 .navbar-toggle {
@@ -53,7 +56,7 @@ body {
   background-color: rgb(36, 35, 35);
 }
 
-/* Contact page starts here */
+/* Contact page code starts here */
 * {
   margin: 0px;
   padding: 0px;
@@ -188,3 +191,4 @@ form .icons a:hover {
     width: 100%;
   }
 }
+/* Contact page ends here */
